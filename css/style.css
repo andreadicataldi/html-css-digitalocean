@@ -11,15 +11,15 @@ body {
 }
 
 .bg-blue {
-  background-color: #031b4e;
+    background-color: #031b4e;
 }
 
 .bg-electric-blue {
-  background-color: #0067ff;
+    background-color: #0067ff;
 }
 
 .bg-dark-blue {
-  background-color: #031c4e;
+    background-color: #031C4E;
 }
 
 .jumbotron {
@@ -39,7 +39,6 @@ nav {
 
 .logos img {
   width: 100%;
-  vertical-align: ;
 }
 
 .deploy ul {
@@ -63,21 +62,21 @@ nav {
 }
 
 .service .title {
-  padding-top: 4rem;
+    padding-top: 4rem;
 }
 
 .service {
-  color: white;
+    color: white;
 }
 
 .py-10 {
-  padding: 10px 0;
+    padding: 10px 0;
 }
 
 .border-bottom {
-  border-bottom: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 .strong {
-  font-weight: bold;
+    font-weight: bold;
 }
