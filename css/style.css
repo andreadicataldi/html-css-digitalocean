@@ -1,52 +1,83 @@
 body {
-    padding-top: 50px;
+  padding-top: 50px;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-grey {
+  background-color: #f3f5f9;
+}
+
+.bg-blue {
+  background-color: #031b4e;
+}
+
+.bg-electric-blue {
+  background-color: #0067ff;
+}
+
+.bg-dark-blue {
+  background-color: #031c4e;
 }
 
 .jumbotron {
-    background-image: url('../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg');
-    background-size: cover;
-    margin-bottom: 0;
-}
-
-.card {
-    background-color: white;
-    
+  background-image: url("../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+  background-size: cover;
+  margin-bottom: 0;
 }
 
 nav {
-    margin-bottom: 0 !important;
-    border: none !important;
+  margin-bottom: 0 !important;
+  border: none !important;
 }
 
- #logo-google {
-     height: 18px;
- }
+.g-logo {
+  height: 18px;
+}
 
- .logos {
-     background-color: #f3f5f9;
- }
+.logos img {
+  width: 100%;
+  vertical-align: ;
+}
 
- .logos img {
-     width: 100%;
-     vertical-align: ;
- }
+.deploy ul {
+  border-left: 1px solid grey;
+  padding-left: 10px;
+}
 
- .deploy ul {
-     border-left: 1px solid grey;
-     padding-left: 10px;
- }
+.deploy li {
+  line-height: 4.5rem;
+  list-style: none;
+  color: grey;
+  font-size: 2rem;
+}
 
- .deploy li {
-     line-height: 4.5rem;
-     list-style: none;
-     color: grey;
-     font-size: 2rem;
- }
+.px-5 {
+  padding: 0 5px;
+}
 
- .pad-0 {
-     padding: 0 5px;
- }
+.logo-row {
+  line-height: 123.23px;
+}
 
- .logo-row {
-     line-height: 123.23px;
- }
+.service .title {
+  padding-top: 4rem;
+}
+
+.service {
+  color: white;
+}
+
+.py-10 {
+  padding: 10px 0;
+}
+
+.border-bottom {
+  border-bottom: 1px solid white;
+}
+
+.strong {
+  font-weight: bold;
+}
