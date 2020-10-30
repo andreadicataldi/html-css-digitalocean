@@ -1,5 +1,6 @@
 body {
   padding-top: 50px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .bg-white {
@@ -22,19 +23,96 @@ body {
   background-color: #031c4e;
 }
 
+.navbar {
+  margin-bottom: 0 !important;
+  border: none !important;
+  min-height: 30px;
+  max-height: 80px;
+  line-height: 30px;
+  padding: 0 145px;
+}
+
+.navbar-brand, .navbar-nav li a {
+  padding-top: 0;
+  
+}
+
+.navbar-brand img {
+  max-height: 25px;
+  margin-top: 25px;
+}
+
+nav ul {
+  padding: 1rem;
+    color: #031b4f;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#bs-example-navbar-collapse-1 > ul:nth-child(1) {
+  margin-left: 150px;
+
+}
+
+#bs-example-navbar-collapse-1 > ul > li > a {
+      color: hsl(221,93%,16%) !important;
+    background-color: transparent !important;
+    font-family: 'Sailec-Medium','Helvetica','sans-serif';
+    font-size: 14px !important;
+    padding: 20px 12px;
+}
+
+#bs-example-navbar-collapse-1 > ul.nav.navbar-nav.navbar-right > li:nth-child(4) > a {
+  padding: 10px 15px;
+  margin-top: 10px;
+  color: #0067ff !important;
+  font-weight: 600;
+  border: 1px solid #0067ff;
+}
+
+
+
 .jumbotron {
   background-image: url("../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
   background-size: cover;
   margin-bottom: 0;
 }
 
-nav {
-  margin-bottom: 0 !important;
-  border: none !important;
+h1 {
+  color: white !important;
+}
+
+header > div > div > div > div.col-md-7 > p {
+  color: white;
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.register {
+  padding: 25px;
+}
+
+header > div > div > div > div.col-md-5 > div > h2:nth-child(1) {
+  color: #031b4e;
+}
+header > div > div > div > div.col-md-5 > div > h2:nth-child(2) {
+  color: #0067ff;
 }
 
 .g-logo {
   height: 18px;
+}
+
+header > div > div > div > div.col-md-5 > div > small > a {
+  text-decoration: underline;
+}
+
+.innovative {
+  padding: 30px;
+}
+
+.innovative h4 {
+  margin-bottom: 40px;
 }
 
 .deploy ul {
@@ -47,6 +125,15 @@ nav {
   list-style: none;
   color: grey;
   font-size: 2rem;
+}
+
+section.innovative.bg-grey.text-center > div > div:nth-child(3) > div {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+section.innovative.bg-grey.text-center > div > div:nth-child(3) > div > a {
+  color: #0067ff;
 }
 
 .px-5 {

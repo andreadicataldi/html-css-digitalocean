@@ -12,6 +12,12 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
 
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Bootstrap CSS -->
     <link
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
@@ -23,6 +29,7 @@
   <body>
     <!-- HEADER -->
     <header class="site-header">
+      <!-- NAVBAR -->
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
@@ -39,7 +46,12 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">DigitalOcean</a>
+            <a class="navbar-brand" href="#"
+              ><img
+                src="./img/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png"
+                alt=""
+                class="nav-logo"
+            /></a>
           </div>
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div
@@ -47,15 +59,15 @@
             id="bs-example-navbar-collapse-1"
           >
             <ul class="nav navbar-nav">
-              <li><a href="#">Products</a></li>
-              <li><a href="#">Customers</a></li>
-              <li><a href="#">Community</a></li>
-              <li><a href="#">Pricing</a></li>
+              <li><a href="#" class="navbar_item">Products <i class="fas fa-chevron-down"></i></a></li>
+              <li><a href="#" class="navbar_item">Customers</a></li>
+              <li><a href="#" class="navbar_item">Community <i class="fas fa-chevron-down"></i></a></li>
+              <li><a href="#" class="navbar_item">Pricing</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Docs</a></li>
-              <li><a href="#">Support</a></li>
-              <li><a href="#">Login</a></li>
+              <li><a href="#" class="navbar_item">Docs</a></li>
+              <li><a href="#" class="navbar_item">Support <i class="fas fa-chevron-down"></i></a></li>
+              <li><a href="#" class="navbar_item">Login</a></li>
               <li>
                 <a class="btn btn-default" href="#" role="button">Sign Up</a>
               </li>
@@ -65,6 +77,8 @@
         </div>
         <!-- /.container-fluid -->
       </nav>
+      <!-- /NAVBAR -->
+      <!-- JUMBOTRON -->
       <div class="jumbotron">
         <div class="container">
           <div class="row">
@@ -96,11 +110,11 @@
                       placeholder="Password"
                     />
                   </div>
-                  <button type="submit" class="btn btn-primary">
+                  <button type="submit" class="btn btn-primary btn-block">
                     Create your account
                   </button>
                   <br />
-                  <button type="submit" class="btn btn-default">
+                  <button type="submit" class="btn btn-default btn-block">
                     <img src="./img/GoogleLogo.svg" alt="" class="g-logo" />
                     Sign up with google
                   </button>
@@ -114,12 +128,13 @@
           </div>
         </div>
       </div>
+      <!--  -->
     </header>
     <!-- /HEADER -->
     <!-- MAIN -->
     <main class="site-main">
-      <!-- SECTION LOGOS -->
-      <section class="logos bg-grey text-center">
+      <!-- SECTION INNOVATIVE -->
+      <section class="innovative bg-grey text-center">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -185,13 +200,12 @@
           <div class="row">
             <div class="col-md-12">
               <a href="#"
-                >View customer stories <i class="fas fa-chevron-right"></i
-              ></a>
+                >View customer stories <i class="fas fa-angle-right"></i></a>
             </div>
           </div>
         </div>
       </section>
-      <!-- /SECTION LOGOS -->
+      <!-- /SECTION INNOVATIVE -->
       <!-- DEPLOY -->
       <section class="deploy">
         <div class="container">
