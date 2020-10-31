@@ -1,6 +1,6 @@
 body {
   padding-top: 50px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .bg-white {
@@ -23,6 +23,14 @@ body {
   background-color: #031c4e;
 }
 
+.px-5 {
+  padding: 0 5px;
+}
+
+.py-10 {
+  padding: 10px 0;
+}
+
 .navbar {
   margin-bottom: 0 !important;
   border: none !important;
@@ -32,9 +40,9 @@ body {
   padding: 0 145px;
 }
 
-.navbar-brand, .navbar-nav li a {
+.navbar-brand,
+.navbar-nav li a {
   padding-top: 0;
-  
 }
 
 .navbar-brand img {
@@ -44,33 +52,33 @@ body {
 
 nav ul {
   padding: 1rem;
-    color: #031b4f;
+  color: #031b4f;
   font-size: 14px;
   font-weight: 700;
 }
 
 #bs-example-navbar-collapse-1 > ul:nth-child(1) {
   margin-left: 150px;
-
 }
 
 #bs-example-navbar-collapse-1 > ul > li > a {
-      color: hsl(221,93%,16%) !important;
-    background-color: transparent !important;
-    font-family: 'Sailec-Medium','Helvetica','sans-serif';
-    font-size: 14px !important;
-    padding: 20px 12px;
+  color: hsl(221, 93%, 16%) !important;
+  background-color: transparent !important;
+  font-family: "Sailec-Medium", "Helvetica", "sans-serif";
+  font-size: 14px !important;
+  padding: 20px 12px;
 }
 
-#bs-example-navbar-collapse-1 > ul.nav.navbar-nav.navbar-right > li:nth-child(4) > a {
+#bs-example-navbar-collapse-1
+  > ul.nav.navbar-nav.navbar-right
+  > li:nth-child(4)
+  > a {
   padding: 10px 15px;
   margin-top: 10px;
   color: #0067ff !important;
   font-weight: 600;
   border: 1px solid #0067ff;
 }
-
-
 
 .jumbotron {
   background-image: url("../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
@@ -115,6 +123,39 @@ header > div > div > div > div.col-md-5 > div > small > a {
   margin-bottom: 40px;
 }
 
+.innovative > div > div:nth-child(3) > div {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.innovative > div > div:nth-child(3) > div > a {
+  color: #0067ff;
+}
+
+.deploy {
+  padding: 50px;
+}
+
+.deploy h2 {
+  color: #031b4e;
+  font-weight: 600;
+}
+
+.deploy p {
+  font-weight: 400;
+  color: grey;
+  margin-bottom: 50px;
+}
+
+.deploy img {
+  max-height: 40px;
+}
+
+.deploy h4 {
+  color: #031b4e;
+  font-weight: 600;
+}
+
 .deploy ul {
   border-left: 1px solid grey;
   padding-left: 10px;
@@ -127,29 +168,81 @@ header > div > div > div > div.col-md-5 > div > small > a {
   font-size: 2rem;
 }
 
-section.innovative.bg-grey.text-center > div > div:nth-child(3) > div {
-  margin-top: 30px;
-  font-size: 16px;
+.designed {
+  padding: 50px;
 }
 
-section.innovative.bg-grey.text-center > div > div:nth-child(3) > div > a {
+.designed h2 {
+  color: #031b4e;
+  font-weight: 600;
+}
+
+.designed p {
+  font-size: 20px;
+  font-weight: 400;
+  color: grey;
+  margin-bottom: 50px;
+}
+
+.designed img {
+  width: 100%;
+}
+
+.designed .fa-circle {
+  font-size: 10px;
+  margin: 0 2px;
   color: #0067ff;
 }
 
-.px-5 {
-  padding: 0 5px;
+.designed i[class*="fa-angle"] {
+  font-size: 50px;
+  color: #031b4e;
+  margin-top: 150px;
 }
 
-.service .title {
-  padding-top: 4rem;
+.designed > div > div:nth-child(2) > div.col-md-3.text-right > i {
+  color: grey;
+}
+
+.designed h3 {
+  color: #031b4e;
+  font-size: 18px;
+}
+
+.features {
+  padding: 50px;
+}
+
+.features h2 {
+  color: #031b4e;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.features h4 {
+  color: #031b4e;
+  font-weight: 600;
+}
+
+.features p {
+  color: gray;
+  font-weight: 400;
+  line-height: 2.1rem;
+}
+
+.features a {
+  color: #0067ff;
+  font-weight: 500;
 }
 
 .service {
   color: white;
+  padding: 50px;
 }
 
-.py-10 {
-  padding: 10px 0;
+.service a {
+  color: #00d7d2;
+  font-weight: 400;
 }
 
 .border-bottom {
