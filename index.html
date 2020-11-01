@@ -30,8 +30,8 @@
     <!-- HEADER -->
     <header class="site-header">
       <!-- NAVBAR -->
-      <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
+      <nav class="navbar navbar-default .navbar-fixed-top">
+        <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
             <button
@@ -49,39 +49,63 @@
             <a class="navbar-brand" href="#"
               ><img
                 src="./img/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png"
+                id="logodigi"
                 alt=""
-                class="nav-logo"
             /></a>
           </div>
+
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div
             class="collapse navbar-collapse"
             id="bs-example-navbar-collapse-1"
           >
             <ul class="nav navbar-nav">
-              <li>
-                <a href="#" class="navbar_item"
-                  >Products <i class="fas fa-chevron-down"></i
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Products <span class="caret"></span
                 ></a>
               </li>
-              <li><a href="#" class="navbar_item">Customers</a></li>
-              <li>
-                <a href="#" class="navbar_item"
-                  >Community <i class="fas fa-chevron-down"></i
+              <li><a href="#">Customers</a></li>
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Community <span class="caret"></span
                 ></a>
               </li>
-              <li><a href="#" class="navbar_item">Pricing</a></li>
+              <li><a href="#">Pricing</a></li>
             </ul>
+
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#" class="navbar_item">Docs</a></li>
-              <li>
-                <a href="#" class="navbar_item"
-                  >Support <i class="fas fa-chevron-down"></i
+              <li><a href="#">Docs</a></li>
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Support <span class="caret"></span
                 ></a>
               </li>
-              <li><a href="#" class="navbar_item">Login</a></li>
+              <li><a href="#">Login</a></li>
               <li>
-                <a class="btn btn-default" href="#" role="button">Sign Up</a>
+                <button type="submit" class="btn btn-default btn_sign_up">
+                  Sign Up
+                </button>
               </li>
             </ul>
           </div>
@@ -149,12 +173,12 @@
       <section class="innovative bg-grey text-center">
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 col-sm-12">
               <h4>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h4>
             </div>
           </div>
           <div class="row logo-row">
-            <div class="col-md-2 col-md-2 col-xs-6 px-5">
+            <div class="col-md-2 col-sm-2 col-xs-6 px-5">
               <div class="logo">
                 <img
                   src="./img/docker-bab60eeb.svg"
@@ -163,7 +187,7 @@
                 />
               </div>
             </div>
-            <div class="col-md-2 col-md-2 col-xs-6 px-5">
+            <div class="col-md-2 col-sm-2 col-xs-6 px-5">
               <div class="logo">
                 <img
                   src="./img/gitlab-166e2067.svg"
@@ -172,7 +196,7 @@
                 />
               </div>
             </div>
-            <div class="col-md-2 col-md-2 col-xs-6 px-5">
+            <div class="col-md-2 col-sm-2 col-xs-6 px-5">
               <div class="logo">
                 <img
                   src="./img/slack-e20293da.svg"
@@ -181,7 +205,7 @@
                 />
               </div>
             </div>
-            <div class="col-md-2 col-md-2 col-xs-6 px-5">
+            <div class="col-md-2 col-sm-2 col-xs-6 px-5">
               <div class="logo">
                 <img
                   src="./img/hashicorp-4431df79.svg"
@@ -190,7 +214,7 @@
                 />
               </div>
             </div>
-            <div class="col-md-2 col-md-2 col-xs-6 px-5">
+            <div class="col-md-2 col-sm-2 col-xs-6 px-5">
               <div class="logo">
                 <img
                   src="./img/hashicorp-4431df79.svg"
@@ -199,7 +223,7 @@
                 />
               </div>
             </div>
-            <div class="col-md-2 col-md-2 col-xs-6 px-5">
+            <div class="col-md-2 col-sm-2 col-xs-6 px-5">
               <div class="logo">
                 <img
                   src="./img/splunklogo.svg"
@@ -210,7 +234,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 col-sm-12">
               <a href="#"
                 >View customer stories <i class="fas fa-angle-right"></i
               ></a>
@@ -223,7 +247,7 @@
       <section class="deploy">
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 col-sm-12">
               <div class="deploy-text text-center">
                 <h2>Deploy and scale seamlessly</h2>
                 <p class="lead">
@@ -236,7 +260,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-3">
               <ul>
                 <li>Deploy</li>
                 <li>Manage</li>
@@ -245,9 +269,9 @@
                 <li>Monitor</li>
               </ul>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-9">
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-6">
                   <img src="./img/kubernetes-icon.svg" alt="" />
                   <h4>Cluster deployments</h4>
                   <p>
@@ -255,15 +279,8 @@
                     with our control panel, CLI, or directly against our API.
                   </p>
                 </div>
-                <div class="col-md-6">
-                  <img src="./img/dropletinboxicon.svg" alt="" />
-                  <h4>Optimized compute types</h4>
-                  <p>
-                    Get the compute resources you need with Standard or
-                    Optimized Droplets.
-                  </p>
-                </div>
-                <div class="col-md-6">
+                
+                <div class="col-md-6 col-sm-6">
                   <img src="./img/stacksplusicon.svg" alt="" />
                   <h4>One-click apps</h4>
                   <p>
@@ -272,11 +289,19 @@
                     more.
                   </p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-6">
                   <img src="./img/featured-AP-icon.svg" alt="" />
                   <h4>Global availability</h4>
                   <p>
                     Deploy to any of our data center regions around the world.
+                  </p>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                  <img src="./img/dropletinboxicon.svg" alt="" />
+                  <h4>Optimized compute types</h4>
+                  <p>
+                    Get the compute resources you need with Standard or
+                    Optimized Droplets.
                   </p>
                 </div>
               </div>
@@ -298,16 +323,16 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-3 text-right">
+            <div class="col-md-3 col-sm-3 text-right">
               <i class="fas fa-angle-left"></i>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-6">
               <img
                 src="./img/3292f7d6-1781-4362-8b38-f989dcefa973_screenshot-create-droplet-941311f7.jpg"
                 alt=""
               />
             </div>
-            <div class="col-md-3"><i class="fas fa-angle-right"></i></div>
+            <div class="col-md-3 col-sm-3"><i class="fas fa-angle-right"></i></div>
           </div>
 
           <div class="row">
@@ -329,7 +354,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <img src="./img/icon-task-list-multiple.svg" alt="" />
               <h4>Predictable pricing</h4>
               <p>
@@ -338,7 +363,7 @@
               </p>
               <a href="#">Pricing ></a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <img
                 src="./img/icon-headphones-customer-support-human.svg"
                 alt=""
@@ -350,7 +375,7 @@
               </p>
               <a href="#">Support ></a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
               <img src="./img/icon-check-shield.svg" alt="" />
               <h4>Reliable platform</h4>
               <p>
@@ -473,16 +498,16 @@
       <section class="development bg-grey text-center">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12">
+            <div class="col-md-12 col-sm-12">
               <h2>Development teams love DigitalOcean</h2>
             </div>
           </div>
 
           <div class="row">
-            <div class="col-md-3 text-right">
+            <div class="col-md-3 col-sm-3 text-right">
               <i class="fas fa-angle-left"></i>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-6">
               <div class="rockerbox bg-white">
                 <img
                   src="./img/16673e66-0c2f-417b-88bb-f02cc12b8fda_rockerbox-logo-51462da2.png"
@@ -497,7 +522,7 @@
                 <div class="story"><a href="#">Read story ></a></div>
               </div>
             </div>
-            <div class="col-md-3 text-left">
+            <div class="col-md-3 col-sm-3 text-left">
               <i class="fas fa-angle-right"></i>
             </div>
           </div>
@@ -531,7 +556,7 @@
     <footer class="site-footer bg-blue">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-12">
             <div class="logo-mark">
               <img src="./img/digitalocean-logo-mark.svg" alt="" />
             </div>
@@ -559,9 +584,9 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-8">
+          <div class="col-md-8 col-sm-12">
             <div class="row">
-              <div class="col-md-3">
+              <div class="col-md-3 col-sm-6">
                 <h5>Company</h5>
                 <ul class="list-unstyled">
                   <li><a href="#">About</a></li>
@@ -576,7 +601,7 @@
                   <li><a href="#">Legal & Security</a></li>
                 </ul>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 col-sm-6">
                 <h5>Products</h5>
                 <ul class="list-unstyled">
                   <li><a href="#">Droplets</a></li>
@@ -592,7 +617,7 @@
                   <li><a href="#">Release Notes</a></li>
                 </ul>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 col-sm-6">
                 <h5>Community</h5>
                 <ul class="list-unstyled">
                   <li><a href="#">Tutorials</a></li>
@@ -607,7 +632,7 @@
                   <li><a href="#">Open Source</a></li>
                 </ul>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 col-sm-6">
                 <h5>Support</h5>
                 <ul class="list-unstyled">
                   <li><a href="#">Contact support</a></li>
