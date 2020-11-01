@@ -31,6 +31,14 @@ body {
   padding: 10px 0;
 }
 
+.strong {
+  font-weight: bold;
+}
+
+.border-bottom {
+  border-bottom: 1px solid white;
+}
+
 .navbar {
   margin-bottom: 0 !important;
   border: none !important;
@@ -245,16 +253,91 @@ header > div > div > div > div.col-md-5 > div > small > a {
   font-weight: 400;
 }
 
-.border-bottom {
-  border-bottom: 1px solid white;
+.development {
+  padding: 50px;
 }
 
-.strong {
+.development h2 {
+  color: #031b4e;
+  font-weight: 600;
+  margin-bottom: 100px;
+}
+
+.development p {
+  color: gray;
+  font-weight: 400;
+  line-height: 2.1rem;
+}
+
+.rockerbox {
+  padding: 70px 0;
+  margin-bottom: 30px;
+}
+
+.rockerbox img {
+  margin-bottom: 30px;
+}
+
+.co-founder {
+  margin-bottom: 20px;
+}
+
+.development .fa-circle {
+  font-size: 10px;
+  margin: 0 2px;
+  color: #0067ff;
+}
+
+.development i[class*="fa-angle"] {
+  font-size: 50px;
+  color: #031b4e;
+  margin-top: 150px;
+}
+
+.development > div > div:nth-child(2) > div.col-md-3.text-right > i {
+  color: gray;
+}
+
+.story a {
+  color: #0067ff;
+}
+
+.started {
+  padding: 50px;
+}
+
+.started h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.started button {
+  background-color: white;
+  color: #0067ff;
   font-weight: bold;
+  padding: 7px 10px;
 }
 
 footer {
   position: relative;
+  padding: 50px;
+}
+
+footer a {
+  color: grey;
+}
+
+footer h5 {
+  color: white;
+}
+
+footer .small {
+  color: grey;
+  margin-top: 5px;
+}
+
+footer li {
+  margin-top: 5px;
 }
 
 .chatbot {
@@ -264,11 +347,12 @@ footer {
 }
 
 .chatbot-text {
-  color: blue;
+  color: #031b4e;
+  font-weight: 500;
   display: inline-block;
   width: 60%;
   margin: 0 !important;
-  padding: 5px;
+  padding: 8px;
 }
 
 .chatbot-logo {
