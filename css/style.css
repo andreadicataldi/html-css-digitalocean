@@ -383,4 +383,19 @@ footer li {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
+  .designed > div > div:nth-child(2) > div:nth-child(3) {
+    display: none;
+  }
+
+  .designed > div > div:nth-child(2) > div.col-md-3.col-sm-3.col-xs-3.text-right {
+    display: none;
+  }
+
+  .development > div > div:nth-child(2) > div.col-md-3.col-sm-3.text-right {
+    display: none;
+  }
+
+  .development > div > div:nth-child(2) > div.col-md-3.col-sm-3.text-left {
+    display: none;
+  }
 }
